@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: fixed;
+    margin-top: 100px; 
+  }
+  
+  .square {
+    width: 200px; 
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+  
+  .barra-superior {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.retangulo {
+  width: 170px; 
+  height: 40px; 
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+  margin: 0 10px; 
+}
+  
+  
+  
